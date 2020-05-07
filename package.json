@@ -4,12 +4,15 @@
   "description": "Curso de GraphQL",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node .",
+    "dev": "nodemon ."
   },
   "author": "Nahuel Krowicki",
   "license": "ISC",
   "dependencies": {
-    "apollo-server": "^2.13.0"
+    "apollo-server": "^2.13.0",
+    "dotenv": "^8.2.0",
+    "mongoose": "^5.9.12"
   },
   "devDependencies": {
     "nodemon": "^2.0.3"
